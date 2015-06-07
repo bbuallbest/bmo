@@ -1,0 +1,11 @@
+@mixin box-shadow($color, $width, $horizontal-step) {
+  -webkit-box-shadow: shadow($color, $width, $horizontal-step);
+     -moz-box-shadow: shadow($color, $width, $horizontal-step);
+          box-shadow: shadow($color, $width, $horizontal-step);
+}  
+
+@mixin transform-skew($degree) {
+	-webkit-transform: skew($degree);
+       -moz-transform: skew($degree);
+         -o-transform: skew($degree);
+} 

@@ -1,0 +1,15 @@
+@function shadow($color, $width, $horizontal-step) {
+	$val: 1px -1px 0px $color;
+  	$shift-y: 1;
+  	@for $i from 2 through pxToNumber($width) {
+		@if $i % $horizontal-step == 0 {
+  			$shift-y: $shift-y + 1;
+   		}
+    	$val: #{$val}, #{$i}px #{-$shift-y}px 0px #{$color};
+  	}
+  	@return $val;
+}
+
+@function pxToNumber($num) {
+  @return $num / ($num * 0 + 1);
+}

@@ -1,0 +1,32 @@
+// Colors
+$body-color: #444;
+
+$bmo-body-color: #5BBDA6;
+$bmo-body-reflection-top: lighten($bmo-body-color, 12%);
+$bmo-body-border-color: darken($bmo-body-color, 20%);
+$bmo-body-shadow-color: darken($bmo-body-color, 15%);
+$bmo-face-color: #C5E3BF;
+ 
+$control-rectangle-color: #1C4C3E;
+$control-circle-small-color: #353E9D;
+$control-circle-middle-color: #73BF43;
+$control-circle-large-color: #F0306B;
+$control-triangle-color: #7CCDDE;
+$control-plus-color: #F6E62F;
+
+$plug-color: #2E3E8C;
+
+
+// Sizes
+$bmo-body-padding: 20px;
+
+$bmo-body-width-md: 260px;
+$bmo-body-width-sm: 260px;
+$bmo-body-width-lg: 260px;
+
+$bmo-face-height-md: $bmo-body-width-md / 1.5;
+
+$bmo-border-width: 2px;
+$bmo-border-radius: 25px;
+$bmo-shadow-width: 60px;
+
